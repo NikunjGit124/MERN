@@ -1,0 +1,68 @@
+@mixin circleIconButton {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: $box-shadow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin menuProperty {
+  background: transparent !important; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-flow: column;
+  text-decoration: none;
+  text-align: center;
+  color: #90bbd4;
+ // padding-top: 1.5rem;
+}
+
+@mixin profileradiuspic {
+  width: 60px;
+  border-radius: 12px;
+  height: 55px;
+  object-fit: cover;
+}
+@mixin swotbox {
+  color:#fff;
+  padding:30px 15px; 
+  min-height: 450px; 
+  max-height: 450px;
+  width:90%; 
+}
+@mixin swotpreicon {
+  width:50px;
+	height:50px;
+	border-radius:50%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+  background-color:#fff;
+	font-size: 24px;
+  font-weight: 600;
+  position: absolute; 
+  left: 42%;
+  top: -25px;
+}
+@mixin flexbox {
+  display:flex;
+	align-items:center;
+	justify-content:center;
+}
+@mixin audienceCircleProperty{
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 2.5rem;
+  text-align: center;
+  color:#ffffff;
+  border: 1px solid #fff;
+}
+@mixin reduceSpacingLR {
+  padding-left: 0 !important;
+  padding-right: 0 !important; 
+}

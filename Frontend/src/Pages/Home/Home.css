@@ -1,0 +1,38 @@
+.products img{
+    height: 150px;
+    object-fit: contain;
+}
+.products h5 ,.products p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.search_box{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.search_box input {
+    width: 100%;
+}
+.filter_box{
+    background-color: #fff;
+}
+.color_filter input {
+  width: 20%;
+}
+.filter_heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.range_filter{
+    display: flex;
+    justify-content: space-around;
+}
+.range_filter input{
+  width: 5rem;
+}
+
+/* Input type radio */
+
