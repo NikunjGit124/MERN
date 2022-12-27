@@ -1,8 +1,6 @@
 import React from "react";
 import "./Header.css";
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -12,10 +10,10 @@ function Header() {
   return (
     <div className="header">
         {['md'].map((expand) => (
-        <Navbar key={expand} bg="light" expand={expand} className="mb-3">
+        <Navbar key={expand} bg="light" expand={expand} >
           <Container fluid>
             <Navbar.Brand href="#"> <img  src="https://jwt.io/img/pic_logo.svg" alt="Start Bootstrap Logo"/>
-                 <span class="ms-2">Start Bootstrap</span></Navbar.Brand>
+                 <span className="ms-2">Start Bootstrap</span></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -25,7 +23,7 @@ function Header() {
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                  <img  src="https://jwt.io/img/pic_logo.svg" alt="Start Bootstrap Logo"/>
-                 <span class="ms-2">Start Bootstrap</span>
+                 <span className="ms-2">Start Bootstrap</span>
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>

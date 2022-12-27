@@ -31,4 +31,7 @@
   align-items: center;
   height: 100vh;
 }
+.box-padding{
+    padding: 20px;
+}
 

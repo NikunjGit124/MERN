@@ -1,38 +1,59 @@
-.products img{
-    height: 150px;
-    object-fit: contain;
+.products img {
+  height: 150px;
+  object-fit: contain;
 }
-.products h5 ,.products p{
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+.products h5,
+.products p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
-.search_box{
-    margin-bottom: 20px;
-    margin-top: 20px;
+.search_box {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .search_box input {
-    width: 100%;
+  width: 100%;
 }
-.filter_box{
-    background-color: #fff;
+.filter_box {
+  background-color: #fff;
+  min-height: 100vh;
 }
 .color_filter input {
-  width: 20%;
+  width: 26px;
+  height: 26px;
+  border-radius: 50px !important;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
-.filter_heading{
+.form-check-input:checked {
+  border-color: transparent !important;
+  box-shadow: 0 0 0 0 !important;
+}
+.form-check-input:focus {
+  box-shadow: 0 0 0 0 !important;
+  border-color : #563d7c !important;
+}
+.form-check-input:checked[type=checkbox] {
+  background-color: #563d7c;
+}
+.brand_filter{
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.filter_heading {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 10px;
+  font-weight: 600;
 }
-.range_filter{
-    display: flex;
-    justify-content: space-around;
+.range_filter {
+  display: flex;
+  justify-content: space-around;
 }
-.range_filter input{
+.range_filter input {
   width: 5rem;
 }
-
-/* Input type radio */
-

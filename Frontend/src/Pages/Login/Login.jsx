@@ -46,7 +46,7 @@ function Login() {
     <div className="main_div">
       <main className="form-signin w-100 m-auto text-center container">
         {loading && <SpinnerLoader/>}   
-        <form onSubmit={signInHandler}>
+        <form onSubmit={signInHandler} className="card p-md-5 box-padding">
           <img className="mb-4" src="https://jwt.io/img/pic_logo.svg" alt="" width="72" height="57"/>
           <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
           <div className="form-floating mb-3">
